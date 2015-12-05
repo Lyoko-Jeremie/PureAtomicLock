@@ -11,7 +11,7 @@
 #include <vector>
 using namespace std;
 
-AtomicLock<50> AL;
+AtomicLock<> AL;
 size_t a = 0;
 vector<thread> pt;
 

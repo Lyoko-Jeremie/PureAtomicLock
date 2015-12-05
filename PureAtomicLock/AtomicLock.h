@@ -5,8 +5,11 @@
 #include <chrono>
 #include <thread>
 
+// 警告 不能用此对自旋锁象代替标准库的mutex使用，此实现没有内存屏障特性，不能保证内存可见性和前后语句的顺序一致性
+// 
 // sleeptime指定自旋等待时间  若sleeptime==0则使用this_thread::yield作为自选等待
-template<int sleeptime>
+// 默认参数为0
+template<int sleeptime = 0>
 class AtomicLock
 {
 public:
