@@ -11,7 +11,7 @@
 #include <vector>
 using namespace std;
 
-AtomicLock AL;
+AtomicLock<50> AL;
 size_t a = 0;
 vector<thread> pt;
 
@@ -19,7 +19,7 @@ void th();
 
 int main()
 {
-	for (int i = 0; i != 10000; ++i)
+	for (int i = 0; i != 100; ++i)
 	{
 		pt.emplace_back(th);
 	}
@@ -27,6 +27,7 @@ int main()
 	{
 		pt.at(i).join();
 	}
+	cout << endl;
 	cout << a << endl;
 	system("pause");
     return 0;
