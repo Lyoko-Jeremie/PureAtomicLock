@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1449343135 source:d:\code\vsc++\pureatomiclock\pureatomiclock\pureatomiclock.cpp
+	"stdafx.h"
+	"AtomicLock.h"
+	<string>
+	<iostream>
+	<mutex>
+	<vector>
+
+1449319855 d:\code\vsc++\pureatomiclock\pureatomiclock\stdafx.h
+	"targetver.h"
+	<stdio.h>
+	<tchar.h>
+
+1449319855 d:\code\vsc++\pureatomiclock\pureatomiclock\targetver.h
+	<SDKDDKVer.h>
+
+1449342211 d:\code\vsc++\pureatomiclock\pureatomiclock\atomiclock.h
+	<atomic>
+	<chrono>
+	<thread>
+
+1449319855 source:d:\code\vsc++\pureatomiclock\pureatomiclock\stdafx.cpp
+	"stdafx.h"
+
