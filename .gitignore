@@ -1,0 +1,11 @@
+.vs/*
+*/bin/*
+*/Debug/*
+*/include/*
+*/obj/*
+*/x64/*
+x64/*
+Debug/*
+*.opensdf
+*.sdf
+
