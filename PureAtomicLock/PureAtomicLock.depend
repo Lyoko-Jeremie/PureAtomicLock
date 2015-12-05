@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1449343135 source:d:\code\vsc++\pureatomiclock\pureatomiclock\pureatomiclock.cpp
+1449344081 source:d:\code\vsc++\pureatomiclock\pureatomiclock\pureatomiclock.cpp
 	"stdafx.h"
 	"AtomicLock.h"
 	<string>
